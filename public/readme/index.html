@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Theme Documentation | HugoBong Template </title>
+<meta name="description" content="A modern continuous scroll blog template.">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@500;700&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+    <header>
+    <div class="container header-content">
+        <a href="http://localhost:1313/" class="site-title">HugoBong Template </a>
+        <nav class="nav-links">
+            
+            <a href="/">Home</a>
+            
+            <a href="/readme/">README</a>
+            
+            <a href="/about/">About</a>
+            
+        </nav>
+    </div>
+</header>
+
+    <main class="container">
+        
+<article class="post">
+    <div class="post-header">
+        <h1>Theme Documentation</h1>
+        <div class="post-meta">
+            <time datetime=" 2023-01-02">January 2, 2023</time>
+            &middot; 2 min read
+        </div>
+    </div>
+    <div class="post-content">
+        <p>Welcome to the <strong>Monoscroll</strong> theme template. This site is designed to be a starting point for a modern, continuous-scroll blog.</p>
+<h2 id="quick-start">Quick Start</h2>
+<ol>
+<li><strong>Clone this repository</strong> (if you haven&rsquo;t already).</li>
+<li><strong>Run the server</strong>: <code>hugo server</code></li>
+<li><strong>Navigate to</strong>: <code>http://localhost:1313</code></li>
+</ol>
+<h2 id="naming-conventions--content">Naming Conventions &amp; Content</h2>
+<h3 id="creating-new-posts">Creating New Posts</h3>
+<p>To create a new post, run:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new content posts/my-new-post.md
+</span></span></code></pre></div><p>This will create a new file in <code>content/posts/</code> with the correct frontmatter.</p>
+<h3 id="frontmatter">Frontmatter</h3>
+<p>Each post requires the following frontmatter at the top of the file:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span><span style="color:#f92672">title</span>: <span style="color:#e6db74">&#34;My New Post&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">date</span>: <span style="color:#e6db74">2023-10-27T14:00:00</span><span style="color:#ae81ff">-05</span>:<span style="color:#ae81ff">00</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">draft</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">tags</span>: [<span style="color:#e6db74">&#34;design&#34;</span>, <span style="color:#e6db74">&#34;code&#34;</span>]
+</span></span><span style="display:flex;"><span><span style="color:#f92672">categories</span>: [<span style="color:#e6db74">&#34;tutorial&#34;</span>]
+</span></span><span style="display:flex;"><span>---
+</span></span></code></pre></div><ul>
+<li><code>draft</code>: Set to <code>false</code> when you are ready to publish.</li>
+<li><code>tags</code> and <code>categories</code>: Use these to organize your content. The theme handles them automatically.</li>
+</ul>
+<h2 id="customization">Customization</h2>
+<h3 id="headers--menus">Headers &amp; Menus</h3>
+<p>To add new items to the top navigation, edit <code>hugo.toml</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[[<span style="color:#a6e22e">menu</span>.<span style="color:#a6e22e">main</span>]]
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">identifier</span> = <span style="color:#e6db74">&#34;new-link&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">name</span> = <span style="color:#e6db74">&#34;New Link&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">url</span> = <span style="color:#e6db74">&#34;/new-link/&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">weight</span> = <span style="color:#ae81ff">10</span>
+</span></span></code></pre></div><h3 id="spinning-up-new-categories">Spinning Up New Categories</h3>
+<p>Simply add a <code>categories</code> list to your post frontmatter. Hugo will automatically generate the list pages for them.
+For example, adding <code>categories: [&quot;Photography&quot;]</code> will create a page at <code>/categories/photography/</code> that lists all posts in that category using the continuous scroll layout.</p>
+<h3 id="about--static-pages">About &amp; Static Pages</h3>
+<p>To create a standard page (like this one or &ldquo;About&rdquo;), create a markdown file in the root of <code>content/</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new content about.md
+</span></span></code></pre></div><p>Ensure you set the layout if you want specific styling, though the default <code>single</code> layout works for most text-based pages.</p>
+<h2 id="theme-architecture">Theme Architecture</h2>
+<ul>
+<li><strong><code>themes/monoscroll</code></strong>: logical root of the theme.</li>
+<li><strong><code>layouts/index.html</code></strong>: Controls the homepage continuous scroll.</li>
+<li><strong><code>static/css/style.css</code></strong>: All styling is here. Edit this to change colors, fonts, or glassmorphism effects.</li>
+</ul>
+
+    </div>
+</article>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 HugoBong Template . Built with Hugo.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

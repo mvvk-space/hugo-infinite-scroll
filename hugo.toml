@@ -1,0 +1,25 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'HugoBong Template '
+theme = 'monoscroll'
+
+[params]
+  description = "A modern continuous scroll blog template."
+  mainSections = ["posts"]
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "readme"
+    name = "README"
+    url = "/readme/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3

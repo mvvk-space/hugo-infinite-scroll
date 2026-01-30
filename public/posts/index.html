@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Posts | HugoBong Template </title>
+<meta name="description" content="A modern continuous scroll blog template.">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@500;700&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+    <header>
+    <div class="container header-content">
+        <a href="http://localhost:1313/" class="site-title">HugoBong Template </a>
+        <nav class="nav-links">
+            
+            <a href="/">Home</a>
+            
+            <a href="/readme/">README</a>
+            
+            <a href="/about/">About</a>
+            
+        </nav>
+    </div>
+</header>
+
+    <main class="container">
+        
+<div class="post-header">
+    <h1>Posts</h1>
+</div>
+
+<div class="post-stream">
+    
+    
+    <article class="post">
+        <div class="post-header">
+            <h2><a href="/posts/glassmorphism/">Glassmorphism and Modern aesthetics</a></h2>
+            <div class="post-meta">
+                <time datetime=" 2023-10-10">October 10, 2023</time>
+                &middot; 1 min read
+            </div>
+        </div>
+        <div class="post-content">
+            <p>You might have noticed the header of this site. It uses a technique called <strong>Glassmorphism</strong>. This is achieved using CSS backdrop-filter.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#f92672">header</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">background</span>: rgba(<span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0.8</span>);
+</span></span><span style="display:flex;"><span>    backdrop-filter: blur(<span style="color:#ae81ff">12</span><span style="color:#66d9ef">px</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>It creates a sense of depth and context, allowing the content to gently slide behind the navigation while keeping the menu legible.</p>
+<h2 id="dark-mode-support">Dark Mode Support</h2>
+<p>This theme also supports dark mode automatically based on your system preferences. The CSS variables handle the switch seamlessly.</p>
+<ul>
+<li><strong>Backgrounds</strong> become dark slate.</li>
+<li><strong>Text</strong> turns into a soft white/blocks.</li>
+<li><strong>Accents</strong> shift to be more luminous.</li>
+</ul>
+<p>It&rsquo;s important to test your designs in both modes to ensure accessibility and visual hierarchy remain intact.</p>
+<p><img src="https://picsum.photos/seed/picsum/800/400" alt="Placeholder Image"></p>
+<p>Images in this theme are given a subtle shadow and rounded corners to lift them off the page.</p>
+
+        </div>
+        <div class="divider"></div>
+    </article>
+    
+    <article class="post">
+        <div class="post-header">
+            <h2><a href="/posts/continuous-scroll/">Why Continuous Scroll Works</a></h2>
+            <div class="post-meta">
+                <time datetime=" 2023-10-05">October 5, 2023</time>
+                &middot; 1 min read
+            </div>
+        </div>
+        <div class="post-content">
+            <p>Pagination is a relic of the past for many types of content. Social media has trained us to scroll. It&rsquo;s a natural interaction on touch screens and trackpads alike.</p>
+<h2 id="frictionless-reading">Frictionless Reading</h2>
+<p>By presenting full posts in a stream, we remove the friction of clicking &ldquo;Read More.&rdquo; The user can simply glide through the content. If a post catches their eye, they&rsquo;re already reading it. If not, they scroll past.</p>
+<p>This pattern is particularly effective for:</p>
+<ul>
+<li>Personal blogs</li>
+<li>News feeds</li>
+<li>Photo journals</li>
+<li>Updates and changelogs</li>
+</ul>
+<h3 id="code-syntax-highlighting">Code Syntax Highlighting</h3>
+<p>Hugo supports syntax highlighting out of the box. Let&rsquo;s look at a simple Go example since Hugo is built in Go.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> <span style="color:#e6db74">&#34;fmt&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;Hello, Continuous World!&#34;</span>)
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>The design of this theme ensures that code blocks are clearly distinct from the text, using a subtle background color and a monospaced font.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.</p>
+
+        </div>
+        <div class="divider"></div>
+    </article>
+    
+    <article class="post">
+        <div class="post-header">
+            <h2><a href="/posts/minimalist-design/">The Art of Minimalist Web Design</a></h2>
+            <div class="post-meta">
+                <time datetime=" 2023-10-01">October 1, 2023</time>
+                &middot; 2 min read
+            </div>
+        </div>
+        <div class="post-content">
+            <p>Minimalism in web design is not just about stripping away elements; it&rsquo;s about prioritizing content and user experience. When we remove the clutter, we allow the message to shine through.</p>
+<h2 id="the-power-of-whitespace">The Power of Whitespace</h2>
+<p>Whitespace, or negative space, is one of the most powerful tools in a designer&rsquo;s arsenal. It dictates the flow of the page, guides the user&rsquo;s eye, and improves readability.</p>
+<blockquote>
+<p>&ldquo;Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.&rdquo; - Antoine de Saint-Exupéry</p>
+</blockquote>
+<p>In a continuous scroll layout like this one, whitespace serves as a breath between thoughts. It separates posts without the need for jarring lines or heavy borders.</p>
+<h3 id="typography-matters">Typography Matters</h3>
+<p>When you have fewer elements, the detailed execution of the remaining elements becomes critical. Typography must be impeccable. We&rsquo;ve chosen <strong>Outfit</strong> for headings and <strong>Inter</strong> for body text to ensure maximum legibility and a modern feel.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        </div>
+        <div class="divider"></div>
+    </article>
+    
+</div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 HugoBong Template . Built with Hugo.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on HugoBong Template </title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on HugoBong Template </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Oct 2023 09:15:00 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Glassmorphism and Modern aesthetics</title>
+      <link>http://localhost:1313/posts/glassmorphism/</link>
+      <pubDate>Tue, 10 Oct 2023 09:15:00 -0500</pubDate>
+      <guid>http://localhost:1313/posts/glassmorphism/</guid>
+      <description>&lt;p&gt;You might have noticed the header of this site. It uses a technique called &lt;strong&gt;Glassmorphism&lt;/strong&gt;. This is achieved using CSS backdrop-filter.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;header&lt;/span&gt; {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;background&lt;/span&gt;: rgba(&lt;span style=&#34;color:#ae81ff&#34;&gt;255&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;255&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;255&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;0.8&lt;/span&gt;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    backdrop-filter: blur(&lt;span style=&#34;color:#ae81ff&#34;&gt;12&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;px&lt;/span&gt;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It creates a sense of depth and context, allowing the content to gently slide behind the navigation while keeping the menu legible.&lt;/p&gt;&#xA;&lt;h2 id=&#34;dark-mode-support&#34;&gt;Dark Mode Support&lt;/h2&gt;&#xA;&lt;p&gt;This theme also supports dark mode automatically based on your system preferences. The CSS variables handle the switch seamlessly.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why Continuous Scroll Works</title>
+      <link>http://localhost:1313/posts/continuous-scroll/</link>
+      <pubDate>Thu, 05 Oct 2023 14:30:00 -0500</pubDate>
+      <guid>http://localhost:1313/posts/continuous-scroll/</guid>
+      <description>&lt;p&gt;Pagination is a relic of the past for many types of content. Social media has trained us to scroll. It&amp;rsquo;s a natural interaction on touch screens and trackpads alike.&lt;/p&gt;&#xA;&lt;h2 id=&#34;frictionless-reading&#34;&gt;Frictionless Reading&lt;/h2&gt;&#xA;&lt;p&gt;By presenting full posts in a stream, we remove the friction of clicking &amp;ldquo;Read More.&amp;rdquo; The user can simply glide through the content. If a post catches their eye, they&amp;rsquo;re already reading it. If not, they scroll past.&lt;/p&gt;&#xA;&lt;p&gt;This pattern is particularly effective for:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Art of Minimalist Web Design</title>
+      <link>http://localhost:1313/posts/minimalist-design/</link>
+      <pubDate>Sun, 01 Oct 2023 10:00:00 -0500</pubDate>
+      <guid>http://localhost:1313/posts/minimalist-design/</guid>
+      <description>&lt;p&gt;Minimalism in web design is not just about stripping away elements; it&amp;rsquo;s about prioritizing content and user experience. When we remove the clutter, we allow the message to shine through.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-power-of-whitespace&#34;&gt;The Power of Whitespace&lt;/h2&gt;&#xA;&lt;p&gt;Whitespace, or negative space, is one of the most powerful tools in a designer&amp;rsquo;s arsenal. It dictates the flow of the page, guides the user&amp;rsquo;s eye, and improves readability.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.&amp;rdquo; - Antoine de Saint-Exupéry&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
